@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #45C4B0;
+}
+header#cabeca{
+    background-color: #13678A;
+    text-align: center;
+    padding: 1px 10px;
+    margin: auto;
+    box-shadow: 2px 4px 5px #012030;
+    border-radius: 10px 30px;
+    
+}
+
+header #hight{
+    color: #f5f9f9;
+}
