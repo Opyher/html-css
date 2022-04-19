@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+:root{
+    --fonteTitulo: 'Bebas Neue', cursive, sans-serif;
+    --fontTexto: 'Bebas Neue', cursive, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+
+}
+header{
+    padding-top: 7vw;
+    padding-bottom: 4vw;
+    margin: auto;
+    text-align: center;
+}
+h2{
+    color: white;
+    font-family:var(--fontTexto);
+    font-size: 10vw;
+}
+header p{
+    color: white;
+    font-size: 2.5vw;
+    padding-bottom: 2vw;
+}
+a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none; 
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    background-color: white;
+    padding: 10px;
+}
+section p.mod{
+    background-color: #00000057;
+    width: 1em;
+}
+    
+#i1{
+    background-image: url('imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#i2{
+    background-image: url('imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
